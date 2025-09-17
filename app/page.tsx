@@ -29,7 +29,7 @@ export default function ApartmentRental() {
               size="lg"
               variant="outline"
               className="bg-white text-secondary border-white hover:bg-white/90 px-8 py-4 text-lg"
-              onClick={() => window.open("https://wa.me/your-number", "_blank")}
+              onClick={() => window.open("https://api.whatsapp.com/send?phone=31640522602", "_blank")}
             >
               <MessageCircle className="w-5 h-5 mr-2" />
               WhatsApp Message
@@ -277,7 +277,7 @@ export default function ApartmentRental() {
               size="lg"
               variant="outline"
               className="bg-white text-secondary border-white hover:bg-white/90 px-8 py-4 text-lg"
-              onClick={() => window.open("https://wa.me/your-number", "_blank")}
+              onClick={() => window.open("https://api.whatsapp.com/send?phone=31640522602", "_blank")}
             >
               <MessageCircle className="w-5 h-5 mr-2" />
               WhatsApp Message
